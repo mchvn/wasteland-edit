@@ -1,0 +1,10 @@
+html {
+    background-color: #14131b;
+    color: white;
+    font-family: helvetica;
+  }
+
+  @font-face {
+    font-family: 'Goetz';
+    src: local('Goetz'), url(../fonts/Goetz.otf) format('opentype');
+  }
