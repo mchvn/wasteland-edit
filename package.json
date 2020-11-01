@@ -16,6 +16,7 @@
     "react": "17.0.1",
     "react-ace": "^9.2.0",
     "react-dom": "17.0.1",
-    "react-dropzone": "^11.2.3"
+    "react-dropzone": "^11.2.3",
+    "xml-formatter": "^2.3.1"
   }
 }
