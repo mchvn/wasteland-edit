@@ -124,7 +124,7 @@ return (
         <FileSelector onFileLoad={loadFile} />
         : <FileDisplay fileName={fileName} setXml={setXml} setFileName={setFileName} />}
       <SmallButton onClick={() => beautify(xml)}>Auto-format</SmallButton>
-      <TextEditor lan='xml' />
+      <TextEditor lan='xml' value={xml} onChange={updateXml}/>
       <ActionButton onClick={save}>Generate savefile</ActionButton>
       {isSaved && fileName ?
         <>
